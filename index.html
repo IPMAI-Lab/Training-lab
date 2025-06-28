@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课题组AI科研入门培训</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #2980b9;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .highlight-box {
+            background-color: #e8f4fc;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        ul, ol {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .resource-card {
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .resource-card h4 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .task {
+            background-color: #f0f7ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .task h4 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>课题组AI科研入门培训</h1>
+        <p>从零开始掌握人工智能科研全流程</p>
+    </header>
+
+    <div class="container">
+        <section id="preface">
+            <h2>前言</h2>
+            <p>培训内容包括从AI入门到科研入门，涵盖独立完成科研任务的全部内容，完成将会体验和学习到完整的科研流程。组里涵盖方向广泛，你一定能找到你感兴趣的方向，并有所建树。所给出的方向在实验室内已有良好的基础和背景，且有丰富的计算资源，师兄师姐可以帮忙答疑解惑。进实验室没有时间限制，我们欢迎任何年级和任何专业的道友，在这里探索关于AI的世界。</p>
+            
+            <div class="highlight-box">
+                <h3>培训收获</h3>
+                <ol>
+                    <li><strong>人工智能基础知识</strong>：读懂算法代码，学会创新设计算法</li>
+                    <li><strong>科研基本流程</strong>：读懂并分析论文，产生自己的idea并探究</li>
+                    <li><strong>发表高水平论文的机会</strong></li>
+                    <li><strong>参与各类竞赛</strong></li>
+                </ol>
+            </div>
+
+            <h3>培训目标</h3>
+            <p>本次入门培训时长一个月，希望在培训任务的指引下，带领你掌握以下内容：</p>
+            <ul>
+                <li><strong>深度学习的基本原理</strong>：数据集，模型，训练原理等；重点掌握计算机视觉方向的常见任务</li>
+                <li><strong>深度学习代码的基本功</strong>：对Python、PyTorch有基本的了解，清楚Anaconda的作用，能使用Linux系统的远程服务器进行深度学习任务；能在给出GitHub仓库的情况下，根据论文内容跑通代码；能对已有代码进行改进</li>
+                <li><strong>科研基础</strong>：了解什么是arXiv、如何进行文献管理和阅读(EndNote、Zotero)、如何做文献笔记和论文调研报告；了解期刊会议的分类; overleaf的使用</li>
+                <li><strong>计算机视觉</strong>：了解计算机视觉的基本原理，了解诸如分类模型中的AlexNet、ResNet等经典卷积神经网络模型，能够简单、基本的视觉任务训练及测试Pipeline（手写数字识别、检测等...）</li>
+            </ul>
+        </section>
+
+        <section id="content">
+            <h2>入门培训内容</h2>
+            
+            <div class="task">
+                <h3>1. 深度学习的基本原理和代码功底（一周左右）</h3>
+                
+                <div class="resource-card">
+                    <h4>a. 机器学习基础</h4>
+                    <p>参考<a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php" target="_blank">李宏毅的机器学习课程</a>，学习机器学习、深度学习的基本原理。</p>
+                    <ul>
+                        <li>只需学习2/18，2/25，3/04，3/25，4/22，4/29，5/06这几日的课程</li>
+                        <li>优先听Class Material，其余的Preparation - zh和Extra Material作为补充</li>
+                        <li>4/22，4/29，5/06的课程只听Preparation - zh</li>
+                        <li>非常建议完成布置的作业并听助教的HW讲解，强烈建议在5天之内完成这个课程</li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <h4>b. 计算机视觉基础</h4>
+                    <p>参考<a href="https://space.bilibili.com/1567748478/lists?sid=358497" target="_blank">李沐的机器学习课程</a>，学习计算机视觉的基本原理。</p>
+                </div>
+                
+                <div class="resource-card">
+                    <h4>c. 编程基础</h4>
+                    <ul>
+                        <li>Python：<a href="https://www.bilibili.com/video/BV1wW411Y7ai/" target="_blank">Python基础教程</a> 或 <a href="https://c231n.github.io/python-numpy-tutorial/" target="_blank">Python-Numpy教程</a></li>
+                        <li>Jupyter Notebook：<a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/" target="_blank">教程</a></li>
+                        <li>Linux：<a href="https://www.bilibili.com/video/BV1zx411E7KH/" target="_blank">Linux基础教程</a></li>
+                        <li>Git：<a href="https://www.bilibili.com/video/BV1HM411377j/" target="_blank">一小时Git教程</a></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <h4>d. PyTorch学习</h4>
+                    <p>建议在掌握理论知识后学习：</p>
+                    <ul>
+                        <li>PyTorch官方文档教程</li>
+                        <li>强烈推荐：<a href="https://www.bilibili.com/video/BV1hE411t7RN/" target="_blank">小土堆的教程</a>（快速上手重点推荐）</li>
+                    </ul>
+                </div>
+                
+                <div class="resource-card">
+                    <h4>e. LaTeX学习</h4>
+                    <p>对LaTeX不熟悉的同学请学习<a href="https://www.bilibili.com/video/BV1Z24y157GM/" target="_blank">LaTeX基础教程</a></p>
+                </div>
+            </div>
+            
+            <div class="task">
+                <h3>2. 科研基础（1天左右）</h3>
+                <p>通过网络搜索，了解以下内容：</p>
+                <ul>
+                    <li>arXiv、Overleaf</li>
+                    <li>文献管理和阅读工具：PapersWithCode, Google Scholar, Zotero</li>
+                    <li>如何做文献笔记和论文调研报告</li>
+                    <li>汇报工具：Powerpoint或LaTeX的Beamer包</li>
+                    <li>参考文献管理：BibTeX，参考文献的几种写法和格式</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="reading-report">
+            <h2>阅读报告</h2>
+            
+            <div class="task">
+                <h3>第一章：概念学习</h3>
+                <p class="note">内容应当简明扼要，主要谈理解，拒绝从网上直接复制粘贴</p>
+                <ol>
+                    <li>目标检测</li>
+                    <li>语义分割</li>
+                    <li>医学图像分割</li>
+                    <li>高光谱图像重构</li>
+                </ol>
+            </div>
+            
+            <div class="task">
+                <h3>第二章：文献阅读报告</h3>
+                <div class="highlight-box">
+                    <p><strong>注意</strong>：为了避免形式主义的任务式阅读，该部分的本质是为了提高你深入阅读论文的能力，提高你对方法抽象概念的理解，一些技术细节可以不用钻牛角尖，重点还是论文背景和问题、论文动机和贡献解读。</p>
+                </div>
+                <p>建议根据方向阅读以下给出的全部论文，并在所给文章中按个人喜好挑选5篇撰写阅读报告，建议选择较新的文献。</p>
+                
+                <h4>阅读报告内容要求：</h4>
+                <ul>
+                    <li>论文标题、作者单位</li>
+                    <li>论文背景和问题</li>
+                    <li>论文动机和贡献解读</li>
+                    <li>方案设计详细分析</li>
+                    <li>实验效果及其分析</li>
+                    <li>结论</li>
+                    <li>自己的思考</li>
+                </ul>
+                
+                <p class="note">撰写阅读报告时可以参考原论文、网络解读（博客、知乎专栏等）、跟进本论文的工作等。某些较为老旧的论文原文可能在Introduction和Method部分的写作较为晦涩，经常会出现难以理解的公式、符号等，此时可以依靠网络博客、视频等的解读来学习这部分的内容。这部分内容页数不限；重点关注论文的背景、问题、动机、相关工作、方法部分，实验部分适当取舍阅读，思考部分随意写一点自己真实的想法就可以。</p>
+                
+                <div class="highlight-box">
+                    <h4>重要提醒：阅读论文技巧</h4>
+                    <ol>
+                        <li>跳过公式，理解算法核心，做概念抽象的理解</li>
+                        <li>结合知乎或者优秀帖子看，先用中文和别人嚼碎的，会好接受一点</li>
+                        <li>结合代码跑着（断点调试），理解抓住数据input和output，数据在整个model是如何流动的（forward）（关注matrix shape）</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="task">
+                <h3>第三章：代码复现</h3>
+                <p>你需要在选择的方向的中挑选任意两个文献（参考上面给出的文献），根据他们给出的GitHub仓库跑通代码，提供跑通训练pipeline到test的完整流程，并对比其是否和原文中的结果吻合。建议选择最新的文献完成代码复现。</p>
+            </div>
+            
+            <div class="task">
+                <h3>第四章：文献阅读报告</h3>
+                <p>任意挑选一个方向，挑选其中的两篇论文阅读、完成文献阅读报告，并做一个PPT对这两篇论文进行展示。阅读和展示考核文献时，你尤其需要思考：</p>
+                <ul>
+                    <li>本文的创新点在哪里？</li>
+                    <li>未来是否还有能继续研究的空间？</li>
+                    <li>你的思考是什么？</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
