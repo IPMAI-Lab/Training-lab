@@ -20,7 +20,7 @@
           i. 只需学习2/18，2/25，3/04，3/25，4/22，4/29，5/06这几日的课程，其余课程内容目前不用学习。在听课程内容时，优先听Class Material，其余的Preparation - zh和Extra Material作为补充；                            4/22，4/29，5/06的课程只听Preparation - zh；
           ii. 非常建议完成布置的作业并听助教的HW讲解，强烈建议在5天之内完成这个课程。
      b. 参考[李沐的机器学习课程](https://space.bilibili.com/1567748478/lists?sid=358497)，学习计算机视觉的基本原理。
-     c. 如果对Python语言没有太多了解，可以先学习[Python基础教程](https://www.bilibili.com/video/BV1wW411Y7ai/)，也可以学习https://cs231n.github.io/python-numpy-tutorial/和[Jupyter Notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)教程。对Linux不熟练的，学习[Linux基础教程](https://www.bilibili.com/video/BV1zx411E7KH/)。对Git不熟悉的，学习[一小时Git教程](https://www.bilibili.com/video/BV1HM411377j/)。
+     c. 如果对Python语言没有太多了解，可以先学习[Python基础教程](https://www.bilibili.com/video/BV1wW411Y7ai/)，也可以学习[https://c231n.github.io/python-numpy-tutorial/]和[Jupyter Notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)教程。对Linux不熟练的，学习[Linux基础教程](https://www.bilibili.com/video/BV1zx411E7KH/)。对Git不熟悉的，学习[一小时Git教程](https://www.bilibili.com/video/BV1HM411377j/)。
      d. PyTorch的学习，建议在掌握理论知识，听完了李宏毅老师的课程的基础上，学习PyTorch官方文档给出的教程和几个示例。同时，强烈推荐学习[小土堆的教程](https://www.bilibili.com/video/BV1hE411t7RN/)（如果想快点上手，重点推荐这个教程）
      e. 对LaTeX不熟悉的同学请学习[LaTeX基础教程](https://www.bilibili.com/video/BV1Z24y157GM/)。
 
