@@ -16,12 +16,34 @@
 
 ##入门培训内容
 1. 深度学习的基本原理和代码功底（一周左右）：
-     a. 参考李宏毅[https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php]的机器学习课程，学习机器学习、深度学习的基本原理。
+     a. 参考[李宏毅的机器学习课程](https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php)，学习机器学习、深度学习的基本原理。
           i. 只需学习2/18，2/25，3/04，3/25，4/22，4/29，5/06这几日的课程，其余课程内容目前不用学习。在听课程内容时，优先听Class Material，其余的Preparation - zh和Extra Material作为补充；                            4/22，4/29，5/06的课程只听Preparation - zh；
           ii. 非常建议完成布置的作业并听助教的HW讲解，强烈建议在5天之内完成这个课程。
-     b. 参考李沐[https://space.bilibili.com/1567748478/lists?sid=358497]的机器学习课程，学习计算机视觉的基本原理。
-     c. 如果对Python语言没有太多了解，可以先学习Python基础教程[https://www.bilibili.com/video/BV1wW411Y7ai/]，也可以学习https://cs231n.github.io/python-numpy-tutorial/和Jupyter Notebook[https://www.dataquest.io/blog/jupyter-notebook-tutorial/]教程。对Linux不熟练的，学习Linux基础教程[https://www.bilibili.com/video/BV1zx411E7KH/]。对Git不熟悉的，学习一小时Git教程[https://www.bilibili.com/video/BV1HM411377j/]。
-     d. PyTorch的学习，建议在掌握理论知识，听完了李宏毅老师的课程的基础上，学习PyTorch官方文档给出的教程和几个示例。同时，强烈推荐学习小土堆的教程[https://www.bilibili.com/video/BV1hE411t7RN/]（如果想快点上手，重点推荐这个教程）
-     e. 对LaTeX不熟悉的同学请学习LaTeX基础教程[https://www.bilibili.com/video/BV1Z24y157GM/]。
+     b. 参考[李沐的机器学习课程](https://space.bilibili.com/1567748478/lists?sid=358497)，学习计算机视觉的基本原理。
+     c. 如果对Python语言没有太多了解，可以先学习[Python基础教程](https://www.bilibili.com/video/BV1wW411Y7ai/)，也可以学习https://cs231n.github.io/python-numpy-tutorial/和[Jupyter Notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)教程。对Linux不熟练的，学习[Linux基础教程](https://www.bilibili.com/video/BV1zx411E7KH/)。对Git不熟悉的，学习[一小时Git教程](https://www.bilibili.com/video/BV1HM411377j/)。
+     d. PyTorch的学习，建议在掌握理论知识，听完了李宏毅老师的课程的基础上，学习PyTorch官方文档给出的教程和几个示例。同时，强烈推荐学习[小土堆的教程](https://www.bilibili.com/video/BV1hE411t7RN/)（如果想快点上手，重点推荐这个教程）
+     e. 对LaTeX不熟悉的同学请学习[LaTeX基础教程](https://www.bilibili.com/video/BV1Z24y157GM/)。
 
 2. 科研基础（1天左右）：通过网络搜索，了解什么是arXiv、什么是Overleaf，并初步了解如何进行文献管理和阅读、如何做文献笔记和论文调研报告，了解PapersWithCode, Google Scholar, Zotero；可以考虑学习使用Powerpoint，或者LaTeX的Beamer包完成汇报PPT的制作；了解BibTeX，知道参考文献的几种写法和格式；
+
+##阅读报告
+阅读的内容包括但不限于：
+  - 第一章：概念学习。内容应当简明扼要，主要谈理解，拒绝从网上直接复制粘贴；
+    1. 目标检测
+    2. 语义分割
+    3. 医学图像分割
+    4. 高光谱图像重构
+
+ - 第二章：文献阅读报告 (注意，为了避免形式主义的任务式阅读，有个小提醒：该部分的本质是为了提高你深入阅读论文的能力，提高你对方法抽象概念的理解，一些技术细节可以不用钻牛角尖，重点还是论文背景和问题、论文动机和贡献解读)。建议根据方向阅读以下给出的全部论文，并在所给文章中按个人喜好挑选5篇撰写阅读报告，建议选择较新的文献。
+
+ - 阅读报告的内容应包括：论文标题、作者单位、论文背景和问题、论文动机和贡献解读、方案设计详细分析、实验效果及其分析、结论、自己的思考等。撰写阅读报告时可以参考原论文、网络解读（博客、知乎专栏等）、跟进本论文的工作等。（注意：某些较为老旧的论文原文可能在Introduction和Method部分的写作较为晦涩，经常会出现难以理解的公式、符号等，此时不用灰心，完全可以依靠网络博客、视频等的解读来学习这部分的内容）这部分内容页数不限；注意，重点关注论文的背景、问题、动机、相关工作、方法部分，实验部分适当取舍阅读，思考部分随意写一点自己真实的想法就可以（没必要让GPT来完成）
+
+ - 重要提醒：在你看论文的时候，可能会看到一些复杂公式不好理解，容易望而生畏，这里有一些经验建议
+  1. 跳过公式，理解算法核心，做概念抽象的理解
+  2. 结合知乎或者优秀帖子看，先用中文和别人嚼碎的，会好接受一点
+  3. 结合代码跑着（断点调试），理解抓住数据input和output，数据在整个model是如何流动的（forward）（关注matrix shape）
+
+- 第三章：代码复现。你需要在选择的方向的中挑选任意两个文献（参考👆🏻给出的文献），根据他们给出的GitHub仓库跑通代码，提供跑通训练pipeline到test的完整流程，并对比其是否和原文中的结果吻合。建议选择最新的文献完成代码复现。
+
+- 第四章：文献阅读报告。任意挑选一个方向，挑选其中的两篇论文阅读、完成文献阅读报告，并做一个PPT对这两篇论文进行展示。阅读和展示考核文献时，你尤其需要思考：本文的创新点在哪里？未来是否还有能继续研究的空间？你的思考是什么？
+
